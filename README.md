@@ -1,2 +1,0 @@
-# NationalParkHelper
-Created with CodeSandbox
