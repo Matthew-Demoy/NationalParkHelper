@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   min-width: 400px;
   max-width: 400px;
@@ -28,8 +32,36 @@ img {
 .mapContainer {
   height: 600px;
   display: flex;
+}
+
+.topContainer {
+  display: flex;
+}
+
+#donateButton {
+  background-color: rgb(0, 73, 117);
+  height: 100px;
+  width: 100px;
+}
+
+#donateLink {
+  color: white;
+}
+
+#top {
   background-image: url(https://www.nationalparks.org/sites/default/files/styles/full_2x/public/crater-hero.jpg?itok=f-xB_M3c) !important;
   background-repeat: no-repeat !important;
   background-attachment: scroll !important;
   background-position: center center !important;
+  padding: 0;
+}
+
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#topLogoContainer {
+  max-width: 600;
+  position: relative;
 }

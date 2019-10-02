@@ -33,6 +33,9 @@ class USAMap extends React.Component {
       }
     }
 
+    console.log("this.state.displayedParkData" + this.state.displayedParkData);
+    this.props.callBackParent(displayedParks);
+
     this.setState(prevState => {
       return {
         ...prevState,
@@ -52,9 +55,6 @@ class USAMap extends React.Component {
             map={USA}
             onChange={this.handleOnChange}
           />
-        </div>
-        <div>
-          <DisplayTable displayedParks={this.state.displayedParkData} />
         </div>
       </div>
     );
