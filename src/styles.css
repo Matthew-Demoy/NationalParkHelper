@@ -50,9 +50,22 @@ img {
 }
 
 #donateButton {
-  background-color: rgb(0, 73, 117);
-  height: 100px;
-  width: 100px;
+  background-color: rgb(25, 126, 171);
+  height: 50px;
+  width: 200px;
+  min-width: 200px;
+  border-radius: 5px;
+  font-family: "Brandon_blk", sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 550;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 #donateLink {
@@ -68,6 +81,7 @@ img {
   display: flex;
   flex-direction: column;
   max-width: 1000px;
+  margin-right: 0px;
 }
 
 .grit {
@@ -166,4 +180,35 @@ h3 {
   position: absolute;
   z-index: -2;
   filter: saturate(5%);
+}
+
+.downContainer {
+  margin-top: -20px;
+  text-shadow: 0px 2px 1.2rem #000018;
+  justify-content: space-between;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.fa-sort-down {
+  color: #ffffff;
+}
+
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
 }
