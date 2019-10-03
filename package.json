@@ -12,7 +12,8 @@
     "react-dom": "16.8.6",
     "react-inlinesvg": "1.1.7",
     "react-scripts": "3.0.1",
-    "react-svg-map": "2.0.1"
+    "react-svg-map": "2.0.1",
+    "react-transition-group": "4.3.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"

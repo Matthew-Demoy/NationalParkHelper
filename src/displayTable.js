@@ -30,11 +30,6 @@ export default class DisplayTable extends React.Component {
 
   render() {
     var displayitmes = this.DisplayItems();
-    return (
-      <div>
-        <h2 className={"Text"}>Selected Parks</h2>
-        {displayitmes}
-      </div>
-    );
+    return <div>{displayitmes}</div>;
   }
 }
