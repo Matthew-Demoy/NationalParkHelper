@@ -11,6 +11,7 @@ import LogoComponent from "./logo-svg.js";
 import DisplayTable from "./displayTable.js";
 
 //https://www.nationalparks.org/explore-parks
+
 import "../fonts/Brandon_blk.otf";
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+
         <div class="top">
           <div className="bg-img" />
           <div className="saturate-layer" />
