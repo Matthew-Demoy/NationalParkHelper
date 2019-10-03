@@ -2,11 +2,10 @@ import React from "react";
 
 const LogoComponent = props => (
   <svg
-    width={"100%"}
-    height={"100%"}
-    viewBox="0 0 500 650"
+    height={"20%"}
+    viewBox="0 0 954 202"
     preserveAspectRatio="none"
-    position="absolute"
+    position="relative"
     {...props}
   >
     <path fill="none" d="M-1.2 0h955.5v202.5H-1.2z" />

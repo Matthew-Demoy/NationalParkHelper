@@ -11,6 +11,9 @@ import LogoComponent from "./logo-svg.js";
 import DisplayTable from "./displayTable.js";
 
 //https://www.nationalparks.org/explore-parks
+
+import "../fonts/Brandon_blk.otf";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -27,14 +30,22 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div id="top">
+
+        <div class="top">
+          <div className="bg-img" />
+          <div className="saturate-layer" />
+          <div className="bg-gradient" />
+
           <div className="topContainer">
             <div id="topLogoContainer">
               <LogoComponent />
             </div>
 
             <div className="verticalContainer">
-              <h1>Explore Parks</h1>
+              <div className="arrowContainer">
+                <h1 className="grit">EXPLORE PARKS</h1>
+              </div>
+
               <h3>
                 Explore America’s national parks. Discover our most treasured
                 places, supported by people like you, and start your travel
