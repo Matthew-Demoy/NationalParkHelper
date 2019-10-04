@@ -14,26 +14,38 @@ body {
   margin: 0;
 }
 
-img {
-  min-width: 400px;
-  max-width: 400px;
-  max-height: 400px;
-  object-fit: contain;
-  padding: 20px;
+.bottom {
+  background-image: url("https://res.cloudinary.com/dxgjnpsjv/image/upload/v1570071364/National%20Park/grunge-title_sggzir.jpg");
 }
 
+img {
+  max-width: 430px;
+  max-height: 270px;
+  width: auto;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+
+.spaceContainer {
+  height: 270px;
+  align-self: center;
+}
 .DataContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
 
+#textDataItem {
+  max-width: 420px;
+  margin: 0 auto;
+}
 .DataItem {
   min-height: 400px;
   height: 100%;
-  padding-top: 20px;
   margin-top: 20px;
-  overflow: auto;
 }
 
 .mapContainer {
@@ -101,7 +113,7 @@ h1 {
   background-size: 150px;
   background-repeat: no-repeat;
 }
-h3 {
+h4 {
   font-family: "Brandon_blk";
   font-weight: 400;
   position: relative;
@@ -109,6 +121,14 @@ h3 {
   text-shadow: 0px 2px 1.2rem #000018;
   font-size: 22px;
   margin-top: -33px;
+}
+h3 {
+  font-family: "Brandon_blk", sans-serif;
+  font-weight: 400;
+  position: relative;
+  color: rgb(17, 72, 117);
+  font-size: 22px;
+  font-weight: 600;
 }
 #topLogoContainer {
   max-width: 600;

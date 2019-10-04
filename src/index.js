@@ -29,8 +29,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
-        <div class="top">
+        <div className="top">
           <div className="bg-img" />
           <div className="saturate-layer" />
           <div className="bg-gradient" />
@@ -45,11 +44,11 @@ class App extends React.Component {
                 <h1 className="grit">EXPLORE PARKS</h1>
               </div>
 
-              <h3>
+              <h4>
                 Explore America’s national parks. Discover our most treasured
                 places, supported by people like you, and start your travel
                 planning here.
-              </h3>
+              </h4>
             </div>
 
             <div id="donateButton">
@@ -78,7 +77,7 @@ class App extends React.Component {
           )}
         </div>
 
-        <div className="scrollHere">
+        <div className="scrollHere bottom">
           <DisplayTable displayedParks={this.state.selectedStates} />
         </div>
       </div>
