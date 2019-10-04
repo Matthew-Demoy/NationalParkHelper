@@ -1,5 +1,9 @@
 import React from "react";
 
+//<p> Established in: {park.Established} </p>
+//<p> Land Area: {park.Area} </p>
+//<p> Annual Visitors: {park["Recreation visitors"]}</p>
+
 export default class DisplayTable extends React.Component {
   constructor(props) {
     super(props);
@@ -9,22 +13,26 @@ export default class DisplayTable extends React.Component {
 
   DisplayItems = props => {
     const parks = this.props.displayedParks;
-    console.log(parks);
     const list = parks.map(park => {
+      var parkShortDesc = park.Description.split(".")[0];
       return (
         <div className={"DataItem"}>
-          <img src={park.Image} />
-          <h3>
-            {park.Name} - {park.Location}
-          </h3>
-          <p>{park.Description}</p>
-          <p> Established in: {park.Established} </p>
-          <p> Land Area: {park.Area} </p>
-          <p> Annual Visitors: {park["Recreation visitors"]}</p>
+          <a href={park.link}>
+            <div className="spaceContainer">
+              <img src={park.Image} />
+            </div>
+          </a>
+          <div id="textDataItem">
+            <a href={park.link}>
+              <h3>
+                {park.Name.toUpperCase()} - {park.Location.toUpperCase()}
+              </h3>
+            </a>
+            <p>{parkShortDesc + "."}</p>
+          </div>
         </div>
       );
     });
-    console.log(list);
     return <div className="DataContainer"> {list} </div>;
   };
 
