@@ -10,6 +10,7 @@ import LogoComponent from "./logo-svg.js";
 import DisplayTable from "./displayTable.js";
 
 //https://www.nationalparks.org/explore-parks
+
 import "../fonts/Brandon_blk.otf";
 
 class App extends React.Component {
