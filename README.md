@@ -10,7 +10,7 @@
   <p align="center">
     Find your next nature travel destination.
     <br />
-    <a href="https://tnf8q.csb.app/">
+    <a href="https://tnf8q.csb.app/"> Link to demo <a/>
       
   </p>
   
@@ -55,7 +55,7 @@ See the [open issues](https://github.com/github_username/repo/issues) for a list
 
 Matthew Demoy - Matthew_Demoy@student.uml.edu
 
-Project Link: https://github.com/Matthew-Demoy/BetterSleep-Ejected
+Project Link: https://github.com/Matthew-Demoy/NationalParkHelper
 
 
 
