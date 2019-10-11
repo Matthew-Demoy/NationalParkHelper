@@ -10,7 +10,7 @@
   <p align="center">
     Find your next nature travel destination.
     <br />
-    <a href="https://tnf8q.csb.app/"> Link to demo <a/>
+    <a href="https://codesandbox.io/embed/github/Matthew-Demoy/NationalParkHelper/tree/master/?autoresize=1&fontsize=14&view=preview"> Link to demo <a/>
       
   </p>
   
