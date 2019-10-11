@@ -10,7 +10,7 @@
   <p align="center">
     Find your next nature travel destination.
     <br />
-    <a href="https://github.com/github_username/repo">
+    <a href="https://tnf8q.csb.app/">
       
   </p>
   
