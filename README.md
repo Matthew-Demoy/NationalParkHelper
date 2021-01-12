@@ -36,7 +36,7 @@
 </div>
 
 With the goal of helping people find national parks to visit, national park finder
-helpss to get information on building national parks across America.
+helps to get information on building national parks across America.
 
 
 
